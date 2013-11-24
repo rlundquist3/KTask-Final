@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Add" >
+
+    <ScrollView 
+        android:id="@+id/addScroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+        <LinearLayout 
+            android:id="@+id/addScrollContet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+	        <EditText
+		        android:id="@+id/title_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:inputType="textCapSentences"
+		        android:hint="@string/task_title" >
+	        	<requestFocus />
+	    	</EditText>
+		   
+			<LinearLayout 
+			    android:id="@+id/date_time_buttons"
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		        
+			   <!-- <ImageButton 
+			        android:id="@+id/due_button"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ic_action_event"
+			        android:contentDescription="@string/due_date"
+			        android:onClick="dueDialog" /> /-->
+			    
+			    <ImageButton 
+			        android:id="@+id/remind_button"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ic_action_alarms"
+			        android:contentDescription="@string/reminder"
+			        android:onClick="reminderDialog" />
+			
+			</LinearLayout>
+			
+			<LinearLayout 
+			    android:id="@+id/date_time_display"
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		        
+			    <TextView 
+			        android:id="@+id/remind_display"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content" />
+			    
+			   <!-- <TextView 
+			        android:id="@+id/remind_display"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content" /> /-->
+			
+			</LinearLayout>
+			
+		    <EditText
+		        android:id="@+id/description_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/task_description"
+		        android:inputType="textMultiLine" />
+		
+		    <Button
+		        android:id="@+id/button1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"
+		        android:onClick="onClickHome"
+		        android:text="@string/action_add" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

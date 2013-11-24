@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KTask: To Do</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">Add New Task</string>
+    <string name="title_activity_help">Help</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="action_add">Save</string>
+    <string name="due_date">Due Date</string>
+    <string name="reminder">Due</string>
+    <string name="action_delete">Clear All Tasks</string>
+    <string name="action_help">Help</string>
+        <string name="action_home">Home</string>
+    
+    <string name="show_complete">Show Complete</string>
+    <string name="help_info"><b>Introduction</b>\n\nWelcome to K-Task! This app is a simple task manager that allows you to create a task with a title, due date and time, and description. All of your open tasks will be added to
+        the home screen for your viewing pleasure. Upon completion of a task, you can click the checkbox to mark the task as complete. You can also swipe the task to the right to edit it.
+        \n\n<b>Creating a Task</b>\n\nTo create a new task, click the "+" symbol at the top of the home screen. This will take you to a screen that allows you to create your task.
+        \n\n<b>Saving a Task</b>\n\nTo save a task, click the "Save" button when you are finished. This will save your task and take you back to the home screen.
+        \n\n<b>Editing a Task</b>\n\nTo edit a task, swipe the task to the right. This can be done by placing your finger on the screen and sliding it to the right approximately 1/4 the size of the screen. When you pick up your finger, you will be taken to the screen to edit your task.
+        \n\n<b>Completing a Task</b>\n\nTo mark a task as completed, click the checkbox next to the app. Your screen will be refreshed and only your active tasks will be displayed.
+        \n\n<b>Other Questions</b>\n\nIf you have any other questions, please email us at ktask@gmail.com. Thank you for using our app. Enjoy!
+        \n\n\n- The K-Task Team</string>
+    <string name="title_activity_completed">Completed Tasks</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
